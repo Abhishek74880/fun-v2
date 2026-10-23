@@ -1,0 +1,8 @@
+{
+  "name": "fun-time",
+  "version": "1.0.0",
+  "description": "Watch a video together, in sync.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" }
+}

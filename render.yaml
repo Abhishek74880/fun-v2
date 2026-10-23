@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: fun-time
+    runtime: node
+    plan: free
+    buildCommand: echo "nothing to build"
+    startCommand: node server.js
+    envVars:
+      - key: MAX_MB
+        value: "3072"
